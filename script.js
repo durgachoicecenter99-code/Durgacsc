@@ -3,10 +3,10 @@
 // =======================
 
 const slides = [
-    "images/banner1.jfif",
-    "images/banner2.jfif",
-    "images/banner3.jfif",
-    "images/banner4.jfif"
+    "banner1.jfif",
+    "banner2.jfif",
+    "banner3.jfif",
+    "banner4.jfif"
 ];
 
 let current = 0;
