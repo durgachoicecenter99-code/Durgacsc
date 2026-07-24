@@ -1,0 +1,195 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+.thanu ul li a{
+	text-decoration:none;
+		color: black;
+		font-size: 20px;
+
+		
+
+}
+
+.thanu ul li
+{
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.thanu ul li:hover
+{
+background-color: orange;
+color: white;
+}
+
+/*aboutus..........................*/
+.dropown0
+{
+	display: none;
+}
+
+ul li:hover .dropown0
+{
+	display: block;
+	position: absolute;
+	margin-left: -0.25cm;
+	margin-top: 0.25cm;
+}
+
+.dropown0 ul 
+{
+	margin:0;
+	padding: 0;
+}
+.dropown0 ul li
+{
+	display: block;
+}
+
+
+
+
+/*end aboutus...........*/
+
+.container{
+width:95%;
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+
+
+h1{
+font-size:40px;
+margin-bottom:15px;
+color:#00008b;
+}
+
+h2{
+margin:25px 0 15px;
+font-size:28px;
+color:#222;
+border-left:5px solid #ff3b8d;
+padding-left:10px;
+}
+
+
+.slider{
+width:75%;
+height:300px;
+overflow:hidden;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.slider img{
+width:100%;
+height:300px;
+object-fit:cover;
+display: flex;
+justify-items: center;
+}
+
+.dots{
+text-align:center;
+margin:12px 0;
+}
+
+.dots span{
+display:inline-block;
+width:10px;
+height:10px;
+background:#3d3db7;
+border-radius:50%;
+margin:4px;
+}
+
+.search-box{
+margin:25px 0;
+background:#fff;
+display:flex;
+align-items:center;
+padding:15px;
+border-radius:35px;
+box-shadow:0 2px 10px rgba(0,0,0,.12);
+}
+
+.search-box i{
+font-size:20px;
+margin-right:10px;
+color:#777;
+}
+
+.search-box input{
+width:100%;
+border:none;
+outline:none;
+font-size:18px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#fff;
+border-radius:18px;
+padding:25px;
+text-align:center;
+cursor:pointer;
+transition:.3s;
+box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 20px rgba(0,0,0,.20);
+}
+
+.card img{
+width:70px;
+height:70px;
+object-fit:contain;
+margin-bottom:15px;
+}
+
+.card h3{
+font-size:20px;
+color:#222;
+}
+
+@media(max-width:768px){
+
+.slider{
+height:180px;
+}
+
+h1{
+font-size:26px;
+}
+
+h2{
+font-size:24px;
+}
+
+.card{
+padding:20px;
+}
+
+.card img{
+width:60px;
+height:60px;
+}
+
+}
