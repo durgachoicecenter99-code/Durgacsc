@@ -90,8 +90,8 @@ const serviceLinks={
 "E-sharam card":"https://eshram.gov.in/",
 "Hemchand yadav":"https://www.durguniversity.ac.in/",
 "Durg Science Clg":"https://www.govtsciencecollegedurg.ac.in/",
-"CGBSE":"https://cgbse.nic.in/"
-
+"CGBSE":"https://cgbse.nic.in/",
+"CGVyapam":"https://vyapamprofile.cgstate.gov.in/online/"
 };
 
 
