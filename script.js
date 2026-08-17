@@ -91,7 +91,7 @@ const serviceLinks={
 "Hemchand yadav":"https://www.durguniversity.ac.in/",
 "Durg Science Clg":"https://www.govtsciencecollegedurg.ac.in/",
 "CGBSE":"https://cgbse.nic.in/",
-"CGVyapam":"https://vyapamprofile.cgstate.gov.in/online/"
+"CGVyapam":"https://vyapamprofile.cgstate.gov.in/online/",
 };
 
 
